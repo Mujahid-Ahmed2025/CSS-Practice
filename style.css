@@ -1,3 +1,21 @@
 *{
+    font-style: italic;
+    background-color: #5DE2E7;
+}
+
+p {
+    color: yellow;
+    
+}
+button{
     color: blue;
+}
+#headingOne {
+   color: rgb(5, 5, 234); 
+}
+#headingTwo{
+    color: #FE9900;
+}
+#headingThree {
+    color: #D20103;
 }
