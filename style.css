@@ -1,19 +1,7 @@
 div{
-    height: 100px;
     width: 100px;
-    background-color: aquamarine;
-    /*border-color: rgb(1, 1, 29);
-    border-width: 2px;
-    border-style: solid;*/
-    border: 2px solid blue;
-    
-    
-}
-h1{
-    width: 200px;
     height: 100px;
-    background-color: aliceblue;
-    border-color: aqua;
-    border: dotted;
-    text-align: center;
+    background-color: rgb(193, 223, 23);
+    border: 2px solid blue;
+    border-radius: 75%;
 }
