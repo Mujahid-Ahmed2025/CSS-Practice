@@ -1,16 +1,19 @@
-*{
-    font-family: 'Times New Roman';
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    /*border-color: rgb(1, 1, 29);
+    border-width: 2px;
+    border-style: solid;*/
+    border: 2px solid blue;
+    
+    
 }
-
-
 h1{
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    border-color: aqua;
+    border: dotted;
     text-align: center;
-    text-transform: capitalize;
-}
-
-#outer{
-    font-size: 25px;
-}
-#inner{
-    font-size: 10px;
 }
