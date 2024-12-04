@@ -1,4 +1,17 @@
-/* *{
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(0, 255, 0, 01);
+
+}
+/* #box2{
+    display: none;
+ }  */
+
+ /**{
     padding: 0;
     margin: 0%;
     color: rgb(9, 75, 75);
@@ -12,8 +25,8 @@ button{
 
 }
 #logo{
-    color: #f08804;
-    font-size: 25px;
+    color: #FF9900;
+    font-size: 25px;*/
     /* background-color: #f08804; */
     
 /* }
@@ -24,9 +37,6 @@ a{
     color: azure;
 
 } */ 
-
-
-
 
 /* *{
     padding: 0%;
