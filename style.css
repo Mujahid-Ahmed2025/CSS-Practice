@@ -1,4 +1,50 @@
 /* style.css */
+:root {
+    font-size: 16px;  1rem = 16px
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#box1, #box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 2em;
+    width: 9.375em; /* 150px */
+    height: 9.375em; /* 150px */
+    border-radius: 0.5em; /* 8px */
+    color: white;
+    font-size: 1.5rem; /* 24px */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+}
+
+#box1 {
+    background-color: #3498db;
+}
+
+#box2 {
+    background-color: #e67e22;
+}
+
+/* Grid Layout */
+body {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+}
+
+/* style.css
 body {
    font-family: Arial, sans-serif;
     margin: 0;
@@ -24,11 +70,15 @@ header {
 #navbar a {
     color: yellow;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 60px;
+    /* gap: 100px;
     border-radius: 4px;
 }
+/* #navbar a {
+    gap: 50px;
+} 
 #navbar a:hover{
-    /* margin: 20px; */
+    /* margin: 20px; 
     padding: 5px;
     border-radius: 10px;
     background-color: green;
@@ -36,9 +86,9 @@ header {
 
 #navbar input {
     padding: 3px;
-    /* border-radius: 5px; */
+    /* border-radius: 5px; 
     border-radius: 5px;
-    /* gap: 20px; */
+    /* gap: 20px; 
 }
 
 #navbar button {
@@ -71,10 +121,12 @@ header {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
-}
+    border: 3px solid;
+
+} */
 /* .contentBox :hover{
     background-color: #ff003c;
-} */
+} 
 
 footer {
     background-color: #232f3e;
